@@ -38,6 +38,7 @@ public class TrendingPost {
 	@Test(description = "To verify trending post functionality.")
 	public void trendingPostFunctionality() {
 		trendingPost.workingOfTrendingPost();
+		System.out.println("Hii");
 		visibleFlag = VisibilityOfElement.isElementVisible(trendingPost.getTrandingPost1(), driver);
 		Assert.assertEquals(visibleFlag, true,"Back on homepage is not working.");
 	}
