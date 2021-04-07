@@ -41,7 +41,7 @@ public class Subscribe {
 	public void beforeMethod(String browserName,String url) {
 		driver = setup.driverReturn(browserName,url);
 		subscribe=new com.page.object.model.SubscribePOM(driver);
-		System.out.println("I am in akash master");
+		System.out.println("I am in akash master finally");
 	}
 
 	@Test(dataProvider="validEmail",priority=1,description="To verify subscribe functionality wuth valid email address.")
